@@ -62,7 +62,49 @@ nav ul li{
 .menu-button{
     display: none;
 }
+header{
+    background-image: radial-gradient(#fff, #c7c7c7) ;
+  
+}
 .header-bottom-side{
     display: flex;
     align-items: center;
+    justify-self: center;
+    padding: 1rem;
+}
+.header-bottom-lef h2{
+    font-size: 3.2rem;
+    margin-bottom: 1.5rem;
+}
+.header-bottom-lef p{
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.header-bottom-lef button{
+    padding: 0.8rem 3.8rem;
+    background-color: #0084ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius:99999px ;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+.header-bottom-lef button:hover{
+    background-color: #0056b3;
+}
+.header-bottom-lef{
+    height: 100%;
+    flex-basis: 50%;
+}
+.header-bottom-right{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-bottom-rigth img{
+    width: 70%;
+    margin: 0;
 }
